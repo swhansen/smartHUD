@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference android:key="CR1" android:title="Custom Response 1" android:summary="Text of Chat Custom Response 1"></EditTextPreference>
+    <EditTextPreference android:key="CR2" android:title="Custom Response 2" android:summary="Text of Chat Custom Response 2"></EditTextPreference>
+    
+</PreferenceScreen>

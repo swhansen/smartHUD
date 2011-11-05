@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">smartHUD</string>
+    <string name="track_list_top">"Sketch of Dawn \nMercy Theme"</string>
+    <string name="track_list_play">"Come With Me Now, Tanya Maria"</string>
+    <string name="track_list_bottom">"Tomorrow \nSelf Portrait "</string>
+        
+    <string name="chat_name"> "Steve \n  Hansen"</string> 
+    <string name="chat_number"> "9787715233"</string>	
+    
+<!--    <string name="chat_number"> "7817897980"</string> -->
+<!--	<string name="chat_number"> "6172337770"</string>	Scott K-->
+    <string name="chat_text"> "Message from.."</string>
+    <string name="chat_driving"> "I'm driving at the moment and will get back to you as soon as it's safe" </string>
+    <string name="chat_custom_1"> "Custom chat text response 1"</string>
+    <string name="chat_custom_2"> "Custom chat text response 2"</string>   
+    <string name="chat_response"> "Steve Hansens text message content play back"</string>       
+    <string name="titlePrefs"> "Preferences"</string>
+</resources>
