@@ -102,10 +102,7 @@ public class SmartHudActivity extends Activity implements OnInitListener  {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-        
-       
-        
-        
+                
         
     //Declare the viewFlippers
         viewFlipper = (ViewFlipper)findViewById(R.id.flipper);
