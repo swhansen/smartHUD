@@ -1,0 +1,151 @@
+ <LinearLayout
+ xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:orientation="vertical"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:layout_weight="1"
+    	android:background="#000000"> 
+	<Button android:text=""
+		android:id="@+id/Button_up_zip"
+		android:background="@android:color/transparent"
+		android:layout_height="30px"
+		android:textSize="10px"
+		android:layout_width="fill_parent">
+	</Button>	
+	
+<!-- The layout is linear L-R with buttons, etc in a relative layout -->	
+    <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:layout_weight="1">        
+	<Button android:text=""
+		android:id="@+id/Button_previous_zip"
+		android:background="@android:color/transparent"
+		android:layout_width="50px"
+		android:textSize="10px"
+		android:layout_height="260px" >
+	</Button>
+	
+	
+	
+<!-- Zip Control Buttons -->	
+	<RelativeLayout
+	android:orientation="horizontal"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:layout_weight="1">  	
+              
+      	
+     <Button android:id="@+id/button_zip_speaker" 
+		android:layout_width="wrap_content"
+		android:background="@drawable/zipcar_focused"
+		android:layout_marginLeft="35dip"
+		android:layout_marginTop="0dip"
+		android:layout_height="wrap_content">
+	</Button> 		 	
+      	     	
+	<Button android:id="@+id/button_zip_custom1" 
+		android:layout_width="wrap_content"
+		android:background="@drawable/contact_normal"
+		android:layout_marginLeft="10dip"
+		android:layout_marginTop="61dip"
+		android:layout_height="wrap_content">
+	</Button> 			
+		
+	<Button android:id="@+id/button_zip_custom2" 
+		android:layout_width="wrap_content"
+		android:background="@drawable/extend_normal"
+		android:layout_marginLeft="10dip"
+		android:layout_marginTop="129dip"
+		android:layout_height="wrap_content">
+	</Button> 			
+			
+	<Button android:id="@+id/button_zip_driving" 
+		android:layout_width="wrap_content"
+		android:background="@drawable/chat_button_driving"
+		android:layout_marginLeft="35dip"
+		android:layout_marginTop="190dip"
+		android:layout_height="wrap_content">
+	</Button>     	      	
+
+	
+<!-- Zip Text Area -->	 	 
+ 	  	
+	
+	<TextView 
+  		android:id="@+id/textview"
+  		android:layout_width="fill_parent"
+ 		 android:layout_height="fill_parent"
+ 		 android:layout_marginLeft="130dip"
+ 		 android:layout_marginTop="0dip"
+ 		 android:typeface="sans"
+ 		 android:textStyle="bold"
+ 		 android:textColor="#00ff00"  
+ 		 android:textSize="47sp"		
+ 		 android:text="@string/zip_text"
+ 	 />
+ 	 	  	 	 
+ 	 <TextView 
+  		android:id="@+id/textview"
+  		android:layout_width="fill_parent"
+ 		 android:layout_height="fill_parent"
+ 		 android:layout_marginLeft="100dip"
+ 		 android:layout_marginTop="65dip"
+ 		 android:typeface="sans"
+ 		 android:textStyle="bold"
+ 		 android:textColor="#00ffff" 
+ 		 android:textSize="41sp"		
+ 		 android:text="@string/zip_contact"
+ 	 />
+ 	 
+ 	  <TextView 
+  		android:id="@+id/textview"
+  		android:layout_width="fill_parent"
+ 		 android:layout_height="fill_parent"
+ 		 android:layout_marginLeft="105dip"
+ 		 android:layout_marginTop="125dip"
+ 		 android:typeface="sans"
+ 		 android:textStyle="bold"
+ 		 android:textColor="#00ffff" 
+ 		 android:textSize="41sp"		
+ 		 android:text="@string/zip_extend"
+ 	 />
+ 		 
+ 		 
+ 	 />
+ 	 
+ 	 <TextView 
+  		android:id="@+id/textview"
+  		android:layout_width="fill_parent"
+ 		 android:layout_height="fill_parent"
+ 		 android:layout_marginLeft="130dip"
+ 		 android:layout_marginTop="190dip"
+ 		 android:typeface="sans"
+ 		 android:textStyle="bold"
+ 		 android:textColor="#00ffff" 
+ 		 android:textSize="41sp"		
+ 		 android:text="@string/zip_nav"
+ 	 />
+ 	 		
+	</RelativeLayout>
+		    			   
+	<Button android:text=""
+		android:id="@+id/Button_next_zip"
+		android:background="@android:color/transparent"
+		android:layout_width="50px"
+		android:textSize="10px"
+		android:layout_height="260px" >
+	</Button>		
+   </LinearLayout>
+       
+	<Button android:text=""
+		android:id="@+id/Button_down_zip"
+		android:background="@android:color/transparent"
+		android:layout_height="30px"
+		android:textSize="10px"
+		android:layout_width="fill_parent">
+	</Button>
+  </LinearLayout>
+ 
+    

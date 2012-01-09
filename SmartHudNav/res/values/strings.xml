@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">smartHUDNav</string>
+    <string name="track_list_top">"Sketch of Dawn \nMercy Theme"</string>
+    <string name="track_list_play">"Come With..5:39"</string>
+    <string name="track_list_bottom">"Tomorrow \nSelf Portrait "</string>
+    <string name="chat_name"> "Steve H"</string>
+    <string name="chat_number"> "978.771.5233"</string>
+    <string name="chat_text"> "Dinner at Steves around 7 ....."</string>
+    <string name="chat_driving"> "I'm driving at the moment and will get back to you as soon as it's safe" </string>
+    <string name="chat_custom_1"> "Custom chat text response 1"</string>
+    <string name="chat_custom_2"> "Custom chat text response 2"</string>    
+    <string name="titlePrefs"> "Preferences"</string>
+</resources>

@@ -1,0 +1,56 @@
+   <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nav_panel"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1">  
+	<Button android:text=""
+		android:id="@+id/Button_up_nav"
+		android:background="@android:color/transparent"
+		android:layout_height="30px"
+		android:textSize="10px"
+		android:layout_width="fill_parent">
+	</Button>
+	
+    <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:layout_weight="1">   
+	<Button android:text=""
+		android:id="@+id/Button_previous_nav"
+		android:background="@android:color/transparent"
+		android:layout_width="50px"
+		android:textSize="10px"
+		android:layout_height="260px" >
+	</Button>   
+	
+        
+	<TextView
+		android:text=""
+		android:gravity="center_horizontal"
+		android:background="@drawable/nav2"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"/>   
+		
+	
+		  	   
+	<Button android:text=""
+		android:id="@+id/Button_next_nav"
+		android:background="@android:color/transparent"
+		android:layout_width="50px"
+		android:textSize="10px"
+		android:layout_height="260px" >
+	</Button>	
+   </LinearLayout>
+	<Button android:text=""
+		android:id="@+id/Button_down_nav"
+		android:background="@android:color/transparent"
+		android:layout_height="30px"
+		android:textSize="10px"
+		android:layout_width="fill_parent">
+	</Button>
+  </LinearLayout>   
+  

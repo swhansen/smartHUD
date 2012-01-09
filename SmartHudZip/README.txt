@@ -1,0 +1,1 @@
+Core Zip version of the SmartHUD app.
